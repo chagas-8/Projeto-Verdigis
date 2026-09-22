@@ -11,7 +11,9 @@
 
     <header>
         <nav>
-            <a href="{% url 'index' %}" class="logo">Verdigis</a>
+            <a href="{% url 'index' %}" class="logo">
+                <img src="{% static 'img/verdigis-logo.png' %}" alt="Verdigis">
+            </a>
             <ul class="nav-links">
                 <li><a href="{% url 'index' %}">Início</a></li>
                 <li><a href="{% url 'quem_somos' %}">Quem Somos</a></li>
